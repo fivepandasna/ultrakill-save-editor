@@ -133,6 +133,11 @@ impl<'a> SaveEditorApp {
 
                     ui.radio_value(
                         &mut self.difficulty,
+                        Difficulty::Brutal,
+                        "Brutal",
+                    );
+                    ui.radio_value(
+                        &mut self.difficulty,
                         Difficulty::Violent,
                         "Violent",
                     );

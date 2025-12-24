@@ -33,10 +33,10 @@ impl ParsableClassKeyed<Level> for LevelData {
 
     fn create_new(level: &Level) -> Self {
         Self {
-            ranks: vec![LevelRank::None; 6],
+            ranks: vec![LevelRank::None; 7],
             secrets_found: vec![false; level.get_secret_count() as usize],
             challenge: false,
-            major_assists: vec![false; 6],
+            major_assists: vec![false; 7],
             file_exists: false,
         }
     }

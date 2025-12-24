@@ -17,10 +17,10 @@ pub struct CybergrindData {
 impl Default for CybergrindData {
     fn default() -> Self {
         Self {
-            waves: vec!["0.0".to_string(); 6],
-            kills: vec!["0".to_string(); 6],
-            style: vec!["0".to_string(); 6],
-            times: vec!["0.0".to_string(); 6],
+            waves: vec!["0.0".to_string(); 7],
+            kills: vec!["0".to_string(); 7],
+            style: vec!["0".to_string(); 7],
+            times: vec!["0.0".to_string(); 7],
             file_exists: false,
         }
     }

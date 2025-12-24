@@ -234,6 +234,7 @@ pub enum Difficulty {
     #[default]
     Standard = 2,
     Violent = 3,
+    Brutal = 4,
 }
 
 impl FromStr for Difficulty {
